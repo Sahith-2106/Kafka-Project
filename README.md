@@ -26,6 +26,9 @@ An AWS Glue Crawler scans the stored data in S3 and updates the Glue Data Catalo
 
 # Project Structure
 
+## Project Structure
+
+.
 ├── data/
 │   └── Data.csv
 ├── producer/
@@ -37,4 +40,5 @@ An AWS Glue Crawler scans the stored data in S3 and updates the Glue Data Catalo
 ├── architecture/
 │   └── Architecture-Kafka.png
 └── README.md
+
 
