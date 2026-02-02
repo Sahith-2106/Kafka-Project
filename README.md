@@ -24,10 +24,6 @@ An AWS Glue Crawler scans the stored data in S3 and updates the Glue Data Catalo
 - Amazon Athena  
 
 
-# Project Structure
-
-## Project Structure
-
 ## Project Structure
 
 ```text
