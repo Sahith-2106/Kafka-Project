@@ -6,6 +6,11 @@ Kafka serves as the central messaging layer, decoupling data producers from cons
 An AWS Glue Crawler scans the stored data in S3 and updates the Glue Data Catalog, making the data discoverable and query-ready. Finally, Amazon Athena is used to run SQL queries directly on the data in S3 for analytics and insights, without requiring data movement.
 
 
+## Architecture Diagram
+
+![Kafka AWS Architecture](architecture/Architecture-Kafka.png)
+
+
 ## Architecture Flow
 1. Stock market data is read from a CSV dataset.
 2. A Python application publishes data to Apache Kafka as a producer.
