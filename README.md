@@ -1,4 +1,6 @@
-# Kafka-Project
+# Real-Time Stock Market Data Pipeline using Kafka & AWS
+
+## Introduction
 This architecture demonstrates a real-time data streaming pipeline built using Apache Kafka and AWS services. A Python-based stock market simulation reads data from a dataset and acts as a Kafka producer, publishing events to a Kafka cluster hosted on Amazon EC2. 
 
 Kafka serves as the central messaging layer, decoupling data producers from consumers and enabling scalable, fault-tolerant streaming. A Kafka consumer processes the incoming events and stores the data in Amazon S3 as the data lake.
